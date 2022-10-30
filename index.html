@@ -39,7 +39,7 @@
             There are a wide range of CSS options available to customize the
             <strong>colors</strong> on an html page. These colors can be applied
             to text, backgrounds, links, buttons, and much more. Colors can be
-            further customized using hex and rgb() attributes.
+            further customized using hex and rgb() values.
           </p>
           <table>
             <th>Property</th>
@@ -70,6 +70,18 @@
               <td class="description">
                 Long-hand border property. Sets the color of an element's
                 border.
+              </td>
+            </tr>
+            <tr>
+              <td>background-image</td>
+              <td>
+                <span class="monospaced"
+                  >background-image: linear-gradient(red, yellow);</span
+                >
+              </td>
+              <td class="description">
+                Specifies a background image to be used as an element's
+                background. Can take an image url or a linear gradient function.
               </td>
             </tr>
           </table>
@@ -110,12 +122,19 @@
               </td>
             </tr>
             <tr>
+              <td>font-weight</td>
+              <td><span class="monospaced">font-weight: 400;</span></td>
+              <td class="description">
+                Specifies the weight or degree of thickness of a font.
+              </td>
+            </tr>
+            <tr>
               <td>text-transform</td>
               <td>
                 <span class="monospaced">text-transform: uppercase;</span>
               </td>
               <td class="description">
-                Applies transformation, such as to uppercase, to text.
+                Applies transformations, such as uppercase, to text.
               </td>
             </tr>
             <tr>
@@ -146,6 +165,27 @@
                 CSS rule used to specify the location of an installed font.
               </td>
             </tr>
+            <tr>
+              <td>letter-spacing</td>
+              <td><span class="monospaced">letter-spacing: 10px;</span></td>
+              <td class="description">
+                Determines the spacing between characters.
+              </td>
+            </tr>
+            <tr>
+              <td>word-spacing</td>
+              <td><span class="monospaced">word-spacing: 5%;</span></td>
+              <td class="description">
+                Sets additional spacing (whitespace) between words.
+              </td>
+            </tr>
+            <tr>
+              <td>line-height</td>
+              <td><span class="monospaced">line-height: 2em;</span></td>
+              <td class="description">
+                Determines the vertical area of a text box.
+              </td>
+            </tr>
           </table>
         </section>
         <section class="container">
@@ -153,9 +193,9 @@
           <p>
             Page elements can be ordered and resized with a variety of
             properties specifically designed to give developers more control
-            over the organization of a web page. Sizing properties include code
-            that adjust the margins between objects as well as their width and
-            height.
+            over the organization of a web page.
+            <strong>Sizing</strong> properties include code that adjust the
+            margins between objects as well as their width and height.
           </p>
           <table>
             <tr>
@@ -223,6 +263,15 @@
               <td><span class="monospaced">display: inline-block;</span></td>
               <td class="description">
                 Determines the type of box to be used for an element.
+              </td>
+            </tr>
+            <tr>
+              <td>position</td>
+              <td><span class="monospaced">position: fixed;</span></td>
+              <td class="description">
+                Along with the left, right, top, and bottom properties,
+                determines how an element is positioned within the flow of a
+                document.
               </td>
             </tr>
           </table>
