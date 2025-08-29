@@ -1,0 +1,200 @@
+[
+  {
+    "property": "color",
+    "css": "color: red;",
+    "description": "Sets the color of foreground elements; typically used along with a function or color value to set the color of text.",
+    "category": "Color"
+  },
+  {
+    "property": "background-color",
+    "css": "background-color: hsl(160, 50%, 10%);",
+    "description": "Sets the color of an element's background.",
+    "category": "Color"
+  },
+  {
+    "property": "border-color",
+    "css": "border-color: #fff;",
+    "description": "Long-hand border property. Sets the color of an element's border.",
+    "category": "Color"
+  },
+  {
+    "property": "background-image",
+    "css": "background-image: linear-gradient(red, yellow);",
+    "description": "Specifies a background image to be used as an element's background. Can take an image url or a linear gradient function.",
+    "category": "Color"
+  },
+  {
+    "property": "font-family",
+    "css": "font-family: 'Arial';",
+    "description": "Sets the text's primary and backup font family if not available.",
+    "category": "Text"
+  },
+  {
+    "property": "font-style",
+    "css": "font-style: italic;",
+    "description": "Sets the text attribute as bold or italicized.",
+    "category": "Text"
+  },
+  {
+    "property": "font-weight",
+    "css": "font-weight: 400;",
+    "description": "Specifies the weight or degree of thickness of a font.",
+    "category": "Text"
+  },
+  {
+    "property": "text-transform",
+    "css": "text-transform: uppercase;",
+    "description": "Applies transformations, such as uppercase, to text.",
+    "category": "Text"
+  },
+  {
+    "property": "text-decoration",
+    "css": "text-decoration: underline;",
+    "description": "Modifies the appearance of text. Can be used to add underline, dotted or wavy decorations, etc.",
+    "category": "Text"
+  },
+  {
+    "property": "font-size",
+    "css": "font-size: 16px;",
+    "description": "Used to set the size of font in pixels (px) or em.",
+    "category": "Text"
+  },
+  {
+    "property": "@font-face",
+    "css": "@font-face {src: url() format();}",
+    "description": "CSS rule used to specify the location of an installed font.",
+    "category": "Text"
+  },
+  {
+    "property": "letter-spacing",
+    "css": "letter-spacing: 10px;",
+    "description": "Determines the spacing between characters.",
+    "category": "Text"
+  },
+  {
+    "property": "word-spacing",
+    "css": "word-spacing: 5%;",
+    "description": "Sets additional spacing (whitespace) between words.",
+    "category": "Text"
+  },
+  {
+    "property": "line-height",
+    "css": "line-height: 2em;",
+    "description": "Determines the vertical area of a text box.",
+    "category": "Text"
+  },
+  {
+    "property": "width",
+    "css": "width: 50%;",
+    "description": "Sets the default width in pixels or percent of an element's content-box relative to its parent.",
+    "category": "Size and Position"
+  },
+  {
+    "property": "height",
+    "css": "height: 718px;",
+    "description": "Sets the default height in pixels or percent of an element's content-box relative to its parent.",
+    "category": "Size and Position"
+  },
+  {
+    "property": "max/min-width",
+    "css": "max-width: 200px;\nmin-width: 150px;",
+    "description": "Sets the maximum or minimum width of an element's content box. Useful when the viewports can be resized.",
+    "category": "Size and Position"
+  },
+  {
+    "property": "max/min-height",
+    "css": "max-height: 315px;\nmin-height: 275px;",
+    "description": "Sets the maximum or minimum height of an element's content box.",
+    "category": "Size and Position"
+  },
+  {
+    "property": "margin",
+    "css": "margin: 0 auto;",
+    "description": "Sets the margins (the space outside of the border) for an element.",
+    "category": "Size and Position"
+  },
+  {
+    "property": "padding",
+    "css": "padding: 20px;",
+    "description": "Sets the padding (the space inside of the border) for an element.",
+    "category": "Size and Position"
+  },
+  {
+    "property": "display",
+    "css": "display: inline-block;",
+    "description": "Determines the type of box to be used for an element.",
+    "category": "Size and Position"
+  },
+  {
+    "property": "position",
+    "css": "position: fixed;",
+    "description": "Along with the left, right, top, and bottom properties, determines how an element is positioned within the flow of a document.",
+    "category": "Size and Position"
+  },
+  {
+    "property": "display",
+    "css": "display: grid;\ndisplay: inline-grid;",
+    "description": "Sets the display property of the element to a grid container. Required to define additional CSS grid properties.",
+    "category": "Responsive Layouts"
+  },
+  {
+    "property": "grid-template",
+    "css": "grid-template: 50px 40px / 100px 100px;",
+    "description": "Shorthand property for grid-template-rows and grid-template-columns. Sets the number and width/height of grid rows followed by columns.",
+    "category": "Responsive Layouts"
+  },
+  {
+    "property": "grid-template-rows",
+    "css": "grid-template-rows: 60px 2fr 1fr;",
+    "description": "Sets the number and height of grid rows. The example creates 3 rows: The first is 60px tall. The second is 2/3 the remaining space. The third is 1/3 the remaining space.",
+    "category": "Responsive Layouts"
+  },
+  {
+    "property": "grid-template-columns",
+    "css": "grid-template-columns: repeat(4, 50px);",
+    "description": "Sets the number and width of grid columns. The example creates 4 identical columns, each with a width of 50px.",
+    "category": "Responsive Layouts"
+  },
+  {
+    "property": "gap",
+    "css": "gap: 10px 15px;",
+    "description": "Sets the gutter space between grid rows and columns. Shorthand property for row-gap and column-gap.",
+    "category": "Responsive Layouts"
+  },
+  {
+    "property": "row-gap",
+    "css": "row-gap: 20px;",
+    "description": "Sets the gutter space between grid rows.",
+    "category": "Responsive Layouts"
+  },
+  {
+    "property": "column-gap",
+    "css": "column-gap: 15px;",
+    "description": "Sets the gutter space between grid columns.",
+    "category": "Responsive Layouts"
+  },
+  {
+    "property": "grid-row / grid-column",
+    "css": "grid-row: 5 / span 2;",
+    "description": "Shorthand property for grid-row-start and grid-row-end or grid-column-start and grid-column-end. Specifies how many grid lines a row will span. The first value specifies the row start. The second value specifies the row end.",
+    "category": "Responsive Layouts"
+  },
+  {
+    "property": "grid-row-start / grid-column-start",
+    "css": "grid-row-start: 1;",
+    "description": "Specifies the starting grid line for a grid row or column item. The example describes a grid item that starts at row line 1 which is immediately before the first row begins.",
+    "category": "Responsive Layouts"
+  },
+  {
+    "property": "grid-row-end / grid-column-end",
+    "css": "grid-row-end: 5;",
+    "description": "Specifies the terminal grid line for a grid row item or grid-column-item. The example ends at grid row line 5, immediately before but not inclusive of row 5.",
+    "category": "Responsive Layouts"
+  },
+  {
+    "property": "grid-area",
+    "css": "grid-area: 2 / 1 / span 2 / span 4;",
+    "description": "Shorthand property for grid-row and grid-column. The order is: row start, column start, row end, then column end.",
+    "category": "Responsive Layouts"
+  }
+]
