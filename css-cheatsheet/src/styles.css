@@ -1,0 +1,151 @@
+:root {
+  /*
+  --main-color: rgb(76, 146, 185);
+  --secondary-color: rgb(5, 107, 144);
+  --accent-color: rgb(228, 46, 0);
+  */
+  --main-color: #5183ae;
+  --secondary-color: #3c408a;
+  --accent-color: #51aeaa;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  min-width: 500px;
+}
+
+main {
+  width: 100%;
+  background-color: white;
+}
+
+header {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+header h1 {
+  color: var(--main-color);
+  padding-top: 20px;
+}
+
+header h2 {
+  color: #aaa;
+  padding-bottom: 20px;
+}
+
+span#cheat {
+  font-family: "Rock Salt";
+  color: var(--accent-color);
+  font-size: larger;
+}
+
+div#content-box {
+  box-shadow: 0px 2px 4px #bbb;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+  background-color: white;
+  border: 1px solid rgb(237, 245, 250);
+}
+
+ul li {
+  text-decoration: none;
+  display: inline-block;
+  width: fit-content;
+  color: var(--main-color);
+  margin: 0 5px;
+  height: 30px;
+  padding: 5px;
+}
+
+ul li:hover {
+  cursor: pointer;
+  color: var(--accent-color);
+}
+
+li#active {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+  text-decoration-thickness: 2px;
+  color: var(--accent-color);
+}
+
+h3 {
+  /*background-color: var(--secondary-color);*/
+  color: var(--secondary-color);
+  padding: 15px 5%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-size: larger;
+}
+
+p {
+  padding: 15px 5%;
+  color: white;
+  background-color: var(--main-color);
+}
+
+table {
+  width: 90%;
+  margin: 15px auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+th {
+  padding: 5px 0;
+  background-color: rgb(237, 245, 250);
+  border-radius: 10px 0 0 0px;
+}
+
+td:first-child {
+  width: 15%;
+  text-align: center;
+  height: 10vh;
+}
+
+td:nth-child(2) {
+  width: 35%;
+}
+
+td:nth-child(3) {
+  width: 50%;
+}
+
+td {
+  border: 1px solid rgb(237, 248, 250);
+  padding: 5px 10px;
+}
+
+td.description {
+  color: #444;
+}
+
+.monospaced {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(237, 245, 250);
+}
+
+footer {
+  width: 100%;
+  margin: 50px auto 0;
+}

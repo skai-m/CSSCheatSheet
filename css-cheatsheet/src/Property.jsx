@@ -3,7 +3,7 @@ function Property(props) {
     <tr>
       <td>{props.name}</td>
       <td>
-        <span classNam="monospaced">{props.css}</span>
+        <span className="monospaced">{props.css}</span>
       </td>
       <td className="description">{props.description}</td>
     </tr>
